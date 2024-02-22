@@ -1,4 +1,4 @@
-package Zadachi;
+package Zadachi.Scan;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Zadachi;
+package Zadachi.For_Loop;
 
 public class EvenNumbers {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Zadachi;
+package Zadachi.If_Else;
 
 public class ErrorMessage {
     public static void main(String[] args) {

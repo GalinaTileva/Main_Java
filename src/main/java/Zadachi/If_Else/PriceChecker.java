@@ -1,4 +1,4 @@
-package Zadachi;
+package Zadachi.If_Else;
 
 public class PriceChecker {
     public static void main(String[] args) {

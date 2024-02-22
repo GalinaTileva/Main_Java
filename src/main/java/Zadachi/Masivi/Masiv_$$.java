@@ -1,4 +1,4 @@
-package Zadachi;
+package Zadachi.Masivi;
 
 public class Masiv_$$ {
     public static void main(String[] args) {

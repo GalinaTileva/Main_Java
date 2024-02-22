@@ -1,4 +1,4 @@
-package Zadachi;
+package Zadachi.For_Loop;
 
 public class IOO {
     public static void main(String[] args) {

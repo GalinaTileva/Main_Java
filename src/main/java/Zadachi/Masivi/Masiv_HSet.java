@@ -1,4 +1,4 @@
-package Zadachi;
+package Zadachi.Masivi;
 
 import java.util.HashSet;
 
