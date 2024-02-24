@@ -3,9 +3,14 @@ package Zadachi.Scan;
 import java.util.Scanner;
 
 public class WeekDays {
+    private static Scanner scanner;
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+
+        scanner = new Scanner(System.in);
+
         System.out.println("Enter a number from 1 to 7: ");
+
         int dayNumber = scanner.nextInt();
 
         String dayName;
@@ -35,12 +40,14 @@ public class WeekDays {
             default:
                 dayName = "Invalid input";
                 break;
-
-
         }
 
-        System.out.println("You entered " + dayNumber + ". So weekday is " + dayName + ".");
+        System.out.println("You entered " + dayNumber + ". Weekday is " + dayName + ".");
+
+
 
 
     }
+
+
 }
