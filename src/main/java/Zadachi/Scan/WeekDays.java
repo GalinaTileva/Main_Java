@@ -44,10 +44,5 @@ public class WeekDays {
 
         System.out.println("You entered " + dayNumber + ". Weekday is " + dayName + ".");
 
-
-
-
     }
-
-
 }

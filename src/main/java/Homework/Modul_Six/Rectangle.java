@@ -1,11 +1,27 @@
 package Homework.Modul_Six;
-/*Създайте клас Rectangle със следните характеристики:
-- Ширина (double)
-- Височина (double)
-Класът трябва да има конструктори СЪС и БЕЗ параметри, метод за изчисляване на площта
-(calculateArea())и метод за изчисляване на периметъра на правоъгълника (calculatePerimeter()).
-*/
+
 public class Rectangle {
+
+    private double width;
+    private double height;
+
+    public Rectangle() {
+        this.width = 0;
+        this.height = 0;
+    }
+
+    public Rectangle (double width, double height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    public double calculateArea() {
+        return width * height;
+    }
+
+    public double calculatePerimeter() {
+        return (width + height) * 2;
+    }
 
 
 }
