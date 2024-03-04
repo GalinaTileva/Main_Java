@@ -13,6 +13,10 @@ public class HighSchoolStudent extends Student {
     }
 
     public void setGrade(int grade) {
-        this.grade = grade;
+        if (grade > 8 && grade <= 13) {
+            this.grade = grade;
+        } else {
+            System.out.println("Invalid input.");
+        }
     }
 }

@@ -1,6 +1,6 @@
 package Zadachi.OOP.students;
 
-public class UniversityStudent extends Student{
+public class UniversityStudent extends Student {
     private String major;
 
     public UniversityStudent(String name, int age, String course, String major) {
@@ -13,6 +13,10 @@ public class UniversityStudent extends Student{
     }
 
     public void setMajor(String major) {
-        this.major = major;
+        if (major != null) {
+            this.major = major;
+        } else {
+            System.out.println("Invalid input.");
+        }
     }
 }

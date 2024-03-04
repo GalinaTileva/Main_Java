@@ -11,7 +11,6 @@ package Zadachi.OOP.students;
 public class Student {
     private String name;
     private int age;
-
     private String course;
 
     public Student(String name, int age, String course) {
@@ -21,13 +20,16 @@ public class Student {
     }
 
 
-
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
-        this.name = name;
+        if (name != null) {
+            this.name = name;
+        } else {
+            System.out.println("Invalid name.");
+        }
     }
 
     public int getAge() {
@@ -35,7 +37,11 @@ public class Student {
     }
 
     public void setAge(int age) {
-        this.age = age;
+        if (age > 7 && age < 100) {
+            this.age = age;
+        } else {
+            System.out.println("Invalid age.");
+        }
     }
 
     public String getCourse() {
@@ -43,7 +49,11 @@ public class Student {
     }
 
     public void setCourse(String course) {
-        this.course = course;
+        if (course != null) {
+            this.course = course;
+        } else {
+            System.out.println("Invalid input.");
+        }
     }
 
 }

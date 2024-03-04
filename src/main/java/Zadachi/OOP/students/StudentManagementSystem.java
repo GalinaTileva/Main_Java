@@ -4,10 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentManagementSystem {
+
     private List<Student> students;
 
     public StudentManagementSystem() {
-        students = new ArrayList<>(); //име на масива е students
+        students = new ArrayList<>(); //име на array списъка е students
     }
 
     //правим метод за добавяне на студенти/обекти
@@ -32,8 +33,6 @@ public class StudentManagementSystem {
         }
     }
 
-    //searchStudentByName(String name)
-    // блок за невалидни стойности
-
+    // searchByName method ???
 
 }
